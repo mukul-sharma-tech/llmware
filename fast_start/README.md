@@ -85,6 +85,11 @@ LLM-based applications.
      - faiss: `pip3 install faiss`   
      - lancedb: `pip3 install lancedb`  
        
+       - vector db : `pip3 install vector-database`  (Mac and Linux only)
+       - A vector database is a specialized database system that stores, manages, and allows querying of data represented as high-dimensional vectors. These vectors are numerical representations of data, such as text, images, or audio, which can be used for similarity searches and analysis. They differ from traditional databases that store data in rows and columns and are better suited for unstructured data. 
+
+       - An SDK, or Software Development Kit, is a collection of tools and resources that developers use to build applications for a specific platform or programming language. These kits typically include libraries, APIs, documentation, code samples, and other resources to aid in the development process. 
+
    - For more scalable deployment, we would recommend installing one of 9 supported vector databases, 
      including Milvus, PGVector (Postgres), Redis, Qdrant, Neo4j, Mongo-Atlas, Chroma, LanceDB, or Pinecone.   
    - Install instructions provided in "examples/Embedding" for specific db, as well as docker-compose scripts.  
