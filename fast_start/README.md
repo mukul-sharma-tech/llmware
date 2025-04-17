@@ -78,7 +78,7 @@ LLM-based applications.
 
 **Vector Databases**  
    - For Fast Start, we will use a no-install vector db (in Examples 2 and 5 specifically).  
-   - There are 4 no-install options supported, but depending upon your enviroment, you may need to pip3 install the corresponding vector db python sdk, eg.:  
+   - There are 4 no-install options supported, but depending upon your enviroment, you may need to pip3 install the corresponding vector db, python, sdk, eg.:  
      
      - chromadb:  `pip3 install chromadb`  
      - milvus lite: `pip3 install pymilvus`  (Mac and Linux only)  
